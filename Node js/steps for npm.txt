@@ -1,0 +1,314 @@
+
+Node.js v18.17.1
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\index.js"                 
+Hello World
+PS C:\Flavious\Node js> node index.js
+Hello World
+PS C:\Flavious\Node js> node index
+Hello World
+PS C:\Flavious\Node js> node --version
+v18.17.1
+PS C:\Flavious\Node js> npm --version
+9.6.2
+PS C:\Flavious\Node js> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (node-js) flavpackage
+version: (1.0.0)
+description: Its an amazing package                                                                                                                                
+entry point: (index.js)                                                                                                                                            
+test command:                                                                                                                                                      
+git repository:                                                                                                                                                    
+keywords:                                                                                                                                                          
+author: flav                                                                                                                                                       
+license: (ISC)                                                                                                                                                     
+About to write to C:\Flavious\Node js\package.json:
+
+{
+  "name": "flavpackage",
+  "version": "1.0.0",
+  "description": "Its an amazing package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "flav",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+PS C:\Flavious\Node js> npm install express --save
+
+added 58 packages, and audited 59 packages in 4s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm i
+
+up to date, audited 59 packages in 1s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm i -g nodemon
+
+added 33 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+PS C:\Flavious\Node js> nodemon index.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Hello World
+[nodemon] clean exit - waiting for changes before restart
+
+ 
+
+
+PS C:\Flavious\Node js> npm install --save-dev nodemon
+
+added 33 packages, and audited 92 packages in 2s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm uninstall nodemon
+
+removed 33 packages, and audited 59 packages in 1s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm uninstall express
+
+removed 58 packages, and audited 1 package in 462ms
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm i express
+
+added 58 packages, and audited 59 packages in 5s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> npm i @angular/cli
+
+added 246 packages, and audited 305 packages in 20s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\httpserver.js" 
+Server is listening on port ${port}
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\httpserver.js"
+Server is listening on port ${port}
+/
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/hello
+/favicon.ico
+/
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/about
+/favicon.ico
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\index.html"   
+C:\Flavious\Node js\index.html:1
+<!doctype html>
+^
+
+SyntaxError: Unexpected token '<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\httpserver.js"
+Server is listening on port ${port}
+/home
+/favicon.ico
+/
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/favicon.ico
+/
+/favicon.ico
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\website.js"   
+Server is listening on port ${port}
+/
+/favicon.ico
+/about
+/cwh
+/
+/hpme
+/home
+/
+PS C:\Flavious\Node js> npm install express --save
+
+up to date, audited 331 packages in 946ms
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\website.js"   
+Server is listening on port ${port}
+/
+PS C:\Flavious\Node js> npm uninstall @angular/cli
+
+removed 239 packages, and audited 92 packages in 2s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\expressapp.js"
+Example app listening on port 3000
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\expressapp.js"
+Example app listening on port 3000
+PS C:\Flavious\Node js> nodemon .\expressapp.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node .\expressapp.js`
+Example app listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node .\expressapp.js`
+Example app listening on port 3000
+PS C:\Flavious\Node js> firebase deploy        
+firebase : The term 'firebase' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ firebase deploy
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (firebase:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Flavious\Node js> node deploy    
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Flavious\Node js\deploy'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.17.1
+PS C:\Flavious\Node js> npm deploy 
+Unknown command: "deploy"
+
+To see a list of supported npm commands, run:
+  npm help
+PS C:\Flavious\Node js> node help
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Flavious\Node js\help'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.17.1
+PS C:\Flavious\Node js> npm help
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+All commands:
+
+    access, adduser, audit, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    hook, init, install, install-ci-test, install-test, link,
+    ll, login, logout, ls, org, outdated, owner, pack, ping,
+    pkg, prefix, profile, prune, publish, query, rebuild, repo,
+    restart, root, run-script, search, set, shrinkwrap, star,
+    stars, start, stop, team, test, token, uninstall, unpublish,
+    unstar, update, version, view, whoami
+
+Specify configs in the ini-formatted file:
+    C:\Users\91904\.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@9.6.2 C:\Users\91904\AppData\Roaming\npm\node_modules\npm
+PS C:\Flavious\Node js> node "C:\Flavious\Node js\expressapp.js"
+Example app listening on port 3000
+
+
+
+
+
+
+
+

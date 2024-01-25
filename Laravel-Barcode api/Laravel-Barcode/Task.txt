@@ -1,0 +1,17 @@
+
+
+
+Hi, 
+
+1)Create two APIs for product search 
+GET and POST
+One will be to view and one will be to search
+
+2)Create an API for Barcode Scanning
+
+Please send your assignment by tomorrow's EOD.
+
+
+Thanks & Regards, 
+Kinjal Vijekar - Project Manager
+URL - https://www.webarcitech.com/

@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=BLl32FvcdVM
+
+https://nodejs.org/en/download
+
+https://code.visualstudio.com/docs/?dv=win
+
+https://nodejs.org/api/documentation.html
+
+https://nodejs.org/api/path.html
+
+common js- https://nodejs.org/api/modules.html 
+
+ecma scripts module- https://nodejs.org/api/esm.html
+
+httpserver.js - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+Express js install - https://expressjs.com/
+
+https://nodejs.dev/en/learn/
+
+https://cloud.digitalocean.com/projects/
+
+https://www.codewithharry.com/blogpost/deploy-nodejs-app-on-ubuntu/

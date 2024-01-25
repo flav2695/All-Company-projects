@@ -1,0 +1,7 @@
+Clean this files to get exact errors in application:
+
+1) C:\xampp\htdocs\laravel8ecommerce\storage\framework\views\
+2) C:\xampp\htdocs\laravel8ecommerce\storage\framework\cache\
+3) C:\xampp\htdocs\laravel8ecommerce\storage\logs\laravel.log
+
+this files get auto generated on browser refresh.

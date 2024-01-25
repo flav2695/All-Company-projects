@@ -1,0 +1,20 @@
+
+
+HTML templates:
+https://github.com/surfsidemedia/Laravel-8-E-Commerce
+
+Laravel Development Server:
+http://127.0.0.1:8000/
+
+PHP my admin
+http://localhost/phpmyadmin/index.php?route=/server/databases&server=1&db=&table=
+
+
+-User and Admin login credentials:
+email-user@user.com
+password-12345678
+email-admin@admin.com
+password-12345678
+Register and login user with new page layout:
+user3@user.com
+password-12345678

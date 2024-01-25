@@ -1,0 +1,5 @@
+Step 1:
+ Download and Install Visual studio code editor for writing code and use Git Bash or CMD terminal for installing laravel.In my case i had used Git Bash terminal.
+
+Step2:
+ 

@@ -1,0 +1,10 @@
+-https://www.itsolutionstuff.com/post/how-to-generate-barcode-in-laravelexample.html
+-https://stackoverflow.com/questions/39990516/laravel-intervention-image-gd-library-extension
+
+Web portal barcode scanning:
+-http://127.0.0.1:8000/barcode
+
+Postman api url:
+-http://127.0.0.1:8000/api/view/
+
+

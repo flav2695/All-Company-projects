@@ -1,0 +1,1752 @@
+Microsoft Windows [Version 10.0.22000.795]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\xampp\htdocs>composer create-project --prefer-dist laravel/laravel laravel8ecommerce
+Creating a "laravel/laravel" project at "./laravel8ecommerce"
+Info from https://repo.packagist.org: #StandWithUkraine
+Installing laravel/laravel (v9.3.1)
+  - Downloading laravel/laravel (v9.3.1)
+  - Installing laravel/laravel (v9.3.1): Extracting archive
+Created project in C:\xampp\htdocs\laravel8ecommerce
+> @php -r "file_exists('.env') || copy('.env.example', '.env');"
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 110 installs, 0 updates, 0 removals
+  - Locking brick/math (0.9.3)
+  - Locking dflydev/dot-access-data (v3.0.1)
+  - Locking doctrine/inflector (2.0.4)
+  - Locking doctrine/instantiator (1.4.1)
+  - Locking doctrine/lexer (1.2.3)
+  - Locking dragonmantank/cron-expression (v3.3.1)
+  - Locking egulias/email-validator (3.2.1)
+  - Locking facade/ignition-contracts (1.0.2)
+  - Locking fakerphp/faker (v1.20.0)
+  - Locking filp/whoops (2.14.5)
+  - Locking fruitcake/php-cors (v1.2.0)
+  - Locking graham-campbell/result-type (v1.0.4)
+  - Locking guzzlehttp/guzzle (7.4.5)
+  - Locking guzzlehttp/promises (1.5.1)
+  - Locking guzzlehttp/psr7 (2.4.0)
+  - Locking hamcrest/hamcrest-php (v2.0.1)
+  - Locking laravel/framework (v9.22.1)
+  - Locking laravel/pint (v1.1.0)
+  - Locking laravel/sail (v1.15.1)
+  - Locking laravel/sanctum (v2.15.1)
+  - Locking laravel/serializable-closure (v1.2.0)
+  - Locking laravel/tinker (v2.7.2)
+  - Locking league/commonmark (2.3.4)
+  - Locking league/config (v1.1.1)
+  - Locking league/flysystem (3.2.0)
+  - Locking league/mime-type-detection (1.11.0)
+  - Locking mockery/mockery (1.5.0)
+  - Locking monolog/monolog (2.8.0)
+  - Locking myclabs/deep-copy (1.11.0)
+  - Locking nesbot/carbon (2.59.1)
+  - Locking nette/schema (v1.2.2)
+  - Locking nette/utils (v3.2.7)
+  - Locking nikic/php-parser (v4.14.0)
+  - Locking nunomaduro/collision (v6.2.1)
+  - Locking nunomaduro/termwind (v1.13.0)
+  - Locking phar-io/manifest (2.0.3)
+  - Locking phar-io/version (3.2.1)
+  - Locking phpdocumentor/reflection-common (2.2.0)
+  - Locking phpdocumentor/reflection-docblock (5.3.0)
+  - Locking phpdocumentor/type-resolver (1.6.1)
+  - Locking phpoption/phpoption (1.8.1)
+  - Locking phpspec/prophecy (v1.15.0)
+  - Locking phpunit/php-code-coverage (9.2.15)
+  - Locking phpunit/php-file-iterator (3.0.6)
+  - Locking phpunit/php-invoker (3.1.1)
+  - Locking phpunit/php-text-template (2.0.4)
+  - Locking phpunit/php-timer (5.0.3)
+  - Locking phpunit/phpunit (9.5.21)
+  - Locking psr/container (2.0.2)
+  - Locking psr/event-dispatcher (1.0.0)
+  - Locking psr/http-client (1.0.1)
+  - Locking psr/http-factory (1.0.1)
+  - Locking psr/http-message (1.0.1)
+  - Locking psr/log (3.0.0)
+  - Locking psr/simple-cache (3.0.0)
+  - Locking psy/psysh (v0.11.7)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking ramsey/collection (1.2.2)
+  - Locking ramsey/uuid (4.3.1)
+  - Locking sebastian/cli-parser (1.0.1)
+  - Locking sebastian/code-unit (1.0.8)
+  - Locking sebastian/code-unit-reverse-lookup (2.0.3)
+  - Locking sebastian/comparator (4.0.6)
+  - Locking sebastian/complexity (2.0.2)
+  - Locking sebastian/diff (4.0.4)
+  - Locking sebastian/environment (5.1.4)
+  - Locking sebastian/exporter (4.0.4)
+  - Locking sebastian/global-state (5.0.5)
+  - Locking sebastian/lines-of-code (1.0.3)
+  - Locking sebastian/object-enumerator (4.0.4)
+  - Locking sebastian/object-reflector (2.0.4)
+  - Locking sebastian/recursion-context (4.0.4)
+  - Locking sebastian/resource-operations (3.0.3)
+  - Locking sebastian/type (3.0.0)
+  - Locking sebastian/version (3.0.2)
+  - Locking spatie/backtrace (1.2.1)
+  - Locking spatie/flare-client-php (1.2.0)
+  - Locking spatie/ignition (1.3.1)
+  - Locking spatie/laravel-ignition (1.3.1)
+  - Locking symfony/console (v6.0.10)
+  - Locking symfony/css-selector (v6.0.3)
+  - Locking symfony/deprecation-contracts (v3.0.2)
+  - Locking symfony/error-handler (v6.0.9)
+  - Locking symfony/event-dispatcher (v6.0.9)
+  - Locking symfony/event-dispatcher-contracts (v3.0.2)
+  - Locking symfony/finder (v6.0.8)
+  - Locking symfony/http-foundation (v6.0.10)
+  - Locking symfony/http-kernel (v6.0.10)
+  - Locking symfony/mailer (v6.0.10)
+  - Locking symfony/mime (v6.0.10)
+  - Locking symfony/polyfill-ctype (v1.26.0)
+  - Locking symfony/polyfill-intl-grapheme (v1.26.0)
+  - Locking symfony/polyfill-intl-idn (v1.26.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.26.0)
+  - Locking symfony/polyfill-mbstring (v1.26.0)
+  - Locking symfony/polyfill-php72 (v1.26.0)
+  - Locking symfony/polyfill-php80 (v1.26.0)
+  - Locking symfony/polyfill-php81 (v1.26.0)
+  - Locking symfony/process (v6.0.8)
+  - Locking symfony/routing (v6.0.8)
+  - Locking symfony/service-contracts (v3.0.2)
+  - Locking symfony/string (v6.0.10)
+  - Locking symfony/translation (v6.0.9)
+  - Locking symfony/translation-contracts (v3.0.2)
+  - Locking symfony/var-dumper (v6.0.9)
+  - Locking theseer/tokenizer (1.2.1)
+  - Locking tijsverkoyen/css-to-inline-styles (2.2.4)
+  - Locking vlucas/phpdotenv (v5.4.1)
+  - Locking voku/portable-ascii (2.0.1)
+  - Locking webmozart/assert (1.11.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 110 installs, 0 updates, 0 removals
+  - Downloading doctrine/inflector (2.0.4)
+  - Downloading doctrine/lexer (1.2.3)
+  - Downloading symfony/polyfill-ctype (v1.26.0)
+  - Downloading webmozart/assert (1.11.0)
+  - Downloading dragonmantank/cron-expression (v3.3.1)
+  - Downloading symfony/deprecation-contracts (v3.0.2)
+  - Downloading psr/container (2.0.2)
+  - Downloading fakerphp/faker (v1.20.0)
+  - Downloading symfony/polyfill-mbstring (v1.26.0)
+  - Downloading symfony/http-foundation (v6.0.10)
+  - Downloading fruitcake/php-cors (v1.2.0)
+  - Downloading psr/http-message (1.0.1)
+  - Downloading psr/http-client (1.0.1)
+  - Downloading ralouphie/getallheaders (3.0.3)
+  - Downloading psr/http-factory (1.0.1)
+  - Downloading guzzlehttp/psr7 (2.4.0)
+  - Downloading guzzlehttp/promises (1.5.1)
+  - Downloading guzzlehttp/guzzle (7.4.5)
+  - Downloading laravel/pint (v1.1.0)
+  - Downloading voku/portable-ascii (2.0.1)
+  - Downloading symfony/polyfill-php80 (v1.26.0)
+  - Downloading phpoption/phpoption (1.8.1)
+  - Downloading graham-campbell/result-type (v1.0.4)
+  - Downloading vlucas/phpdotenv (v5.4.1)
+  - Downloading symfony/css-selector (v6.0.3)
+  - Downloading tijsverkoyen/css-to-inline-styles (2.2.4)
+  - Downloading symfony/var-dumper (v6.0.9)
+  - Downloading symfony/routing (v6.0.8)
+  - Downloading symfony/process (v6.0.8)
+  - Downloading symfony/polyfill-php72 (v1.26.0)
+  - Downloading symfony/polyfill-intl-normalizer (v1.26.0)
+  - Downloading symfony/polyfill-intl-idn (v1.26.0)
+  - Downloading symfony/mime (v6.0.10)
+  - Downloading symfony/service-contracts (v3.0.2)
+  - Downloading psr/event-dispatcher (1.0.0)
+  - Downloading symfony/event-dispatcher-contracts (v3.0.2)
+  - Downloading symfony/event-dispatcher (v6.0.9)
+  - Downloading psr/log (3.0.0)
+  - Downloading egulias/email-validator (3.2.1)
+  - Downloading symfony/mailer (v6.0.10)
+  - Downloading symfony/error-handler (v6.0.9)
+  - Downloading symfony/http-kernel (v6.0.10)
+  - Downloading symfony/finder (v6.0.8)
+  - Downloading symfony/polyfill-intl-grapheme (v1.26.0)
+  - Downloading symfony/string (v6.0.10)
+  - Downloading symfony/console (v6.0.10)
+  - Downloading symfony/polyfill-php81 (v1.26.0)
+  - Downloading ramsey/collection (1.2.2)
+  - Downloading brick/math (0.9.3)
+  - Downloading ramsey/uuid (4.3.1)
+  - Downloading psr/simple-cache (3.0.0)
+  - Downloading nunomaduro/termwind (v1.13.0)
+  - Downloading symfony/translation-contracts (v3.0.2)
+  - Downloading symfony/translation (v6.0.9)
+  - Downloading nesbot/carbon (2.59.1)
+  - Downloading monolog/monolog (2.8.0)
+  - Downloading league/mime-type-detection (1.11.0)
+  - Downloading league/flysystem (3.2.0)
+  - Downloading nette/utils (v3.2.7)
+  - Downloading nette/schema (v1.2.2)
+  - Downloading dflydev/dot-access-data (v3.0.1)
+  - Downloading league/config (v1.1.1)
+  - Downloading league/commonmark (2.3.4)
+  - Downloading laravel/serializable-closure (v1.2.0)
+  - Downloading laravel/framework (v9.22.1)
+  - Downloading laravel/sail (v1.15.1)
+  - Downloading laravel/sanctum (v2.15.1)
+  - Downloading nikic/php-parser (v4.14.0)
+  - Downloading psy/psysh (v0.11.7)
+  - Downloading laravel/tinker (v2.7.2)
+  - Downloading hamcrest/hamcrest-php (v2.0.1)
+  - Downloading mockery/mockery (1.5.0)
+  - Downloading filp/whoops (2.14.5)
+  - Downloading facade/ignition-contracts (1.0.2)
+  - Downloading nunomaduro/collision (v6.2.1)
+  - Downloading phpdocumentor/reflection-common (2.2.0)
+  - Downloading phpdocumentor/type-resolver (1.6.1)
+  - Downloading phpdocumentor/reflection-docblock (5.3.0)
+  - Downloading sebastian/version (3.0.2)
+  - Downloading sebastian/type (3.0.0)
+  - Downloading sebastian/resource-operations (3.0.3)
+  - Downloading sebastian/recursion-context (4.0.4)
+  - Downloading sebastian/object-reflector (2.0.4)
+  - Downloading sebastian/object-enumerator (4.0.4)
+  - Downloading sebastian/global-state (5.0.5)
+  - Downloading sebastian/exporter (4.0.4)
+  - Downloading sebastian/environment (5.1.4)
+  - Downloading sebastian/diff (4.0.4)
+  - Downloading sebastian/comparator (4.0.6)
+  - Downloading sebastian/code-unit (1.0.8)
+  - Downloading sebastian/cli-parser (1.0.1)
+  - Downloading phpunit/php-timer (5.0.3)
+  - Downloading phpunit/php-text-template (2.0.4)
+  - Downloading phpunit/php-invoker (3.1.1)
+  - Downloading phpunit/php-file-iterator (3.0.6)
+  - Downloading theseer/tokenizer (1.2.1)
+  - Downloading sebastian/lines-of-code (1.0.3)
+  - Downloading sebastian/complexity (2.0.2)
+  - Downloading sebastian/code-unit-reverse-lookup (2.0.3)
+  - Downloading phpunit/php-code-coverage (9.2.15)
+  - Downloading doctrine/instantiator (1.4.1)
+  - Downloading phpspec/prophecy (v1.15.0)
+  - Downloading phar-io/version (3.2.1)
+  - Downloading phar-io/manifest (2.0.3)
+  - Downloading myclabs/deep-copy (1.11.0)
+  - Downloading phpunit/phpunit (9.5.21)
+  - Downloading spatie/backtrace (1.2.1)
+  - Downloading spatie/flare-client-php (1.2.0)
+  - Downloading spatie/ignition (1.3.1)
+  - Downloading spatie/laravel-ignition (1.3.1)
+  - Installing doctrine/inflector (2.0.4): Extracting archive
+  - Installing doctrine/lexer (1.2.3): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.26.0): Extracting archive
+  - Installing webmozart/assert (1.11.0): Extracting archive
+  - Installing dragonmantank/cron-expression (v3.3.1): Extracting archive
+  - Installing symfony/deprecation-contracts (v3.0.2): Extracting archive
+  - Installing psr/container (2.0.2): Extracting archive
+  - Installing fakerphp/faker (v1.20.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.26.0): Extracting archive
+  - Installing symfony/http-foundation (v6.0.10): Extracting archive
+  - Installing fruitcake/php-cors (v1.2.0): Extracting archive
+  - Installing psr/http-message (1.0.1): Extracting archive
+  - Installing psr/http-client (1.0.1): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing psr/http-factory (1.0.1): Extracting archive
+  - Installing guzzlehttp/psr7 (2.4.0): Extracting archive
+  - Installing guzzlehttp/promises (1.5.1): Extracting archive
+  - Installing guzzlehttp/guzzle (7.4.5): Extracting archive
+  - Installing laravel/pint (v1.1.0): Extracting archive
+  - Installing voku/portable-ascii (2.0.1): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.26.0): Extracting archive
+  - Installing phpoption/phpoption (1.8.1): Extracting archive
+  - Installing graham-campbell/result-type (v1.0.4): Extracting archive
+  - Installing vlucas/phpdotenv (v5.4.1): Extracting archive
+  - Installing symfony/css-selector (v6.0.3): Extracting archive
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.4): Extracting archive
+  - Installing symfony/var-dumper (v6.0.9): Extracting archive
+  - Installing symfony/routing (v6.0.8): Extracting archive
+  - Installing symfony/process (v6.0.8): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.26.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.26.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.26.0): Extracting archive
+  - Installing symfony/mime (v6.0.10): Extracting archive
+  - Installing symfony/service-contracts (v3.0.2): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.0.2): Extracting archive
+  - Installing symfony/event-dispatcher (v6.0.9): Extracting archive
+  - Installing psr/log (3.0.0): Extracting archive
+  - Installing egulias/email-validator (3.2.1): Extracting archive
+  - Installing symfony/mailer (v6.0.10): Extracting archive
+  - Installing symfony/error-handler (v6.0.9): Extracting archive
+  - Installing symfony/http-kernel (v6.0.10): Extracting archive
+  - Installing symfony/finder (v6.0.8): Extracting archive
+  - Installing symfony/polyfill-intl-grapheme (v1.26.0): Extracting archive
+  - Installing symfony/string (v6.0.10): Extracting archive
+  - Installing symfony/console (v6.0.10): Extracting archive
+  - Installing symfony/polyfill-php81 (v1.26.0): Extracting archive
+  - Installing ramsey/collection (1.2.2): Extracting archive
+  - Installing brick/math (0.9.3): Extracting archive
+  - Installing ramsey/uuid (4.3.1): Extracting archive
+  - Installing psr/simple-cache (3.0.0): Extracting archive
+  - Installing nunomaduro/termwind (v1.13.0): Extracting archive
+  - Installing symfony/translation-contracts (v3.0.2): Extracting archive
+  - Installing symfony/translation (v6.0.9): Extracting archive
+  - Installing nesbot/carbon (2.59.1): Extracting archive
+  - Installing monolog/monolog (2.8.0): Extracting archive
+  - Installing league/mime-type-detection (1.11.0): Extracting archive
+  - Installing league/flysystem (3.2.0): Extracting archive
+  - Installing nette/utils (v3.2.7): Extracting archive
+  - Installing nette/schema (v1.2.2): Extracting archive
+  - Installing dflydev/dot-access-data (v3.0.1): Extracting archive
+  - Installing league/config (v1.1.1): Extracting archive
+  - Installing league/commonmark (2.3.4): Extracting archive
+  - Installing laravel/serializable-closure (v1.2.0): Extracting archive
+  - Installing laravel/framework (v9.22.1): Extracting archive
+  - Installing laravel/sail (v1.15.1): Extracting archive
+  - Installing laravel/sanctum (v2.15.1): Extracting archive
+  - Installing nikic/php-parser (v4.14.0): Extracting archive
+  - Installing psy/psysh (v0.11.7): Extracting archive
+  - Installing laravel/tinker (v2.7.2): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.1): Extracting archive
+  - Installing mockery/mockery (1.5.0): Extracting archive
+  - Installing filp/whoops (2.14.5): Extracting archive
+  - Installing facade/ignition-contracts (1.0.2): Extracting archive
+  - Installing nunomaduro/collision (v6.2.1): Extracting archive
+  - Installing phpdocumentor/reflection-common (2.2.0): Extracting archive
+  - Installing phpdocumentor/type-resolver (1.6.1): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (5.3.0): Extracting archive
+  - Installing sebastian/version (3.0.2): Extracting archive
+  - Installing sebastian/type (3.0.0): Extracting archive
+  - Installing sebastian/resource-operations (3.0.3): Extracting archive
+  - Installing sebastian/recursion-context (4.0.4): Extracting archive
+  - Installing sebastian/object-reflector (2.0.4): Extracting archive
+  - Installing sebastian/object-enumerator (4.0.4): Extracting archive
+  - Installing sebastian/global-state (5.0.5): Extracting archive
+  - Installing sebastian/exporter (4.0.4): Extracting archive
+  - Installing sebastian/environment (5.1.4): Extracting archive
+  - Installing sebastian/diff (4.0.4): Extracting archive
+  - Installing sebastian/comparator (4.0.6): Extracting archive
+  - Installing sebastian/code-unit (1.0.8): Extracting archive
+  - Installing sebastian/cli-parser (1.0.1): Extracting archive
+  - Installing phpunit/php-timer (5.0.3): Extracting archive
+  - Installing phpunit/php-text-template (2.0.4): Extracting archive
+  - Installing phpunit/php-invoker (3.1.1): Extracting archive
+  - Installing phpunit/php-file-iterator (3.0.6): Extracting archive
+  - Installing theseer/tokenizer (1.2.1): Extracting archive
+  - Installing sebastian/lines-of-code (1.0.3): Extracting archive
+  - Installing sebastian/complexity (2.0.2): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (2.0.3): Extracting archive
+  - Installing phpunit/php-code-coverage (9.2.15): Extracting archive
+  - Installing doctrine/instantiator (1.4.1): Extracting archive
+  - Installing phpspec/prophecy (v1.15.0): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.3): Extracting archive
+  - Installing myclabs/deep-copy (1.11.0): Extracting archive
+  - Installing phpunit/phpunit (9.5.21): Extracting archive
+  - Installing spatie/backtrace (1.2.1): Extracting archive
+  - Installing spatie/flare-client-php (1.2.0): Extracting archive
+  - Installing spatie/ignition (1.3.1): Extracting archive
+  - Installing spatie/laravel-ignition (1.3.1): Extracting archive
+71 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+79 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+> @php artisan key:generate --ansi
+
+   INFO  Application key set successfully.
+
+
+
+C:\xampp\htdocs>cd laravel8ecommerce
+
+C:\xampp\htdocs\laravel8ecommerce>php -v
+PHP 8.0.19 (cli) (built: May 10 2022 08:46:29) ( ZTS Visual C++ 2019 x64 )
+Copyright (c) The PHP Group
+Zend Engine v4.0.19, Copyright (c) Zend Technologies
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan -V
+Laravel Framework 9.22.1
+
+
+C:\xampp\htdocs\laravel8ecommerce>composer -V
+Composer version 2.3.10 2022-07-13 15:48:23
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  Press Ctrl+C to stop the server
+
+
+
+1) 1st youtube video-Project & Layout Setup:-
+
+C:\xampp\htdocs\laravel8ecommerce>composer require livewire/livewire
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^2.10 for livewire/livewire
+./composer.json has been updated
+Running composer update livewire/livewire
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking livewire/livewire (v2.10.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading livewire/livewire (v2.10.6)
+  - Installing livewire/livewire (v2.10.6): Extracting archive
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/sail .................................................................................................. DONE
+  laravel/sanctum ............................................................................................... DONE
+  laravel/tinker ................................................................................................ DONE
+  livewire/livewire ............................................................................................. DONE
+  nesbot/carbon ................................................................................................. DONE
+  nunomaduro/collision .......................................................................................... DONE
+  nunomaduro/termwind ........................................................................................... DONE
+  spatie/laravel-ignition ....................................................................................... DONE
+
+80 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire HomeComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//HomeComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/home-component.blade.php
+
+  _._
+/ /o\ \   || ()                ()  __
+|_\ /_|   || || \\// /_\ \\ // || |~~ /_\
+ |`|`|    || ||  \/  \\_  \^/  || ||  \\_
+
+
+Congratulations, you've created your first Livewire component! 🎉🎉🎉
+
+ Would you like to show some love by starring the repo? (yes/no) [no]:
+ > n
+
+
+C:\xampp\htdocs\laravel8ecommerce>
+
+
+Make changes in componet files and view files from exisiting templates:
+Path:
+C:\xampp\htdocs\laravel8ecommerce\app\Http\Livewire\
+
+ base.blade.php:-  Copy all code except main tag from index.html template
+ HomeComponent.php- Add  ->layout("layouts.base");
+ home-component.blade.php:- copy main tag from index.html and paste in home-component.blade.php
+
+-Add Routes in web.php"
+Path:C:\xampp\htdocs\laravel8ecommerce\routes\web.php
+
+-Route::get('/',HomeComponent::class);
+
+
+-Now Copy assets folder from template to C:\xampp\htdocs\laravel8ecommerce\public\
+
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+
+
+
+2)Create Shop, Cart And Checkout Page:-
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire ShopComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//ShopComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/shop-component.blade.php
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire CartComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//CartComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/cart-component.blade.php
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire CheckoutComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//CheckoutComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/checkout-component.blade.php
+
+
+
+
+Make changes in this files from exisitng templates:
+
+Path:C:\xampp\htdocs\laravel8ecommerce\resources\views\livewire\
+
+ShopComponent.php:- Add  ->layout("layouts.base")
+CartComponent.php:- Add  ->layout("layouts.base")
+CheckoutComponent.php:- Add  ->layout("layouts.base")
+
+
+shop-component.blade.php:- Copy only main tag from shop.html template
+cart-component.blade.php:- Copy only main tag from cart.html template
+checkout-component.blade.php:- Copy only main tag from checkout.html template
+
+
+Add this in routes:-
+Path:C:\xampp\htdocs\laravel8ecommerce\routes\web.php
+
+Route::get('/shop',ShopComponent::class); //shop page
+
+Route::get('/cart',CartComponent::class); //cart page
+
+Route::get('/checkout',CheckoutComponent::class); //checkout page
+
+
+-Now In base.blade,php make changes in home,shop,cart,checkout href link.
+
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  Press Ctrl+C to stop the server
+
+  
+
+3)Admin and User Authentication:-
+
+C:\xampp\htdocs\laravel8ecommerce>composer require laravel/Jetstream
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^2.10 for laravel/jetstream
+./composer.json has been updated
+Running composer update laravel/jetstream
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 9 installs, 0 updates, 0 removals
+  - Locking bacon/bacon-qr-code (2.0.7)
+  - Locking dasprid/enum (1.0.3)
+  - Locking jaybizzle/crawler-detect (v1.2.111)
+  - Locking jenssegers/agent (v2.6.4)
+  - Locking laravel/fortify (v1.13.1)
+  - Locking laravel/jetstream (v2.10.2)
+  - Locking mobiledetect/mobiledetectlib (2.8.39)
+  - Locking paragonie/constant_time_encoding (v2.6.3)
+  - Locking pragmarx/google2fa (v8.0.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 9 installs, 0 updates, 0 removals
+  - Downloading dasprid/enum (1.0.3)
+  - Downloading bacon/bacon-qr-code (2.0.7)
+  - Downloading jaybizzle/crawler-detect (v1.2.111)
+  - Downloading paragonie/constant_time_encoding (v2.6.3)
+  - Downloading pragmarx/google2fa (v8.0.1)
+  - Downloading laravel/fortify (v1.13.1)
+  - Downloading mobiledetect/mobiledetectlib (2.8.39)
+  - Downloading jenssegers/agent (v2.6.4)
+  - Downloading laravel/jetstream (v2.10.2)
+  - Installing dasprid/enum (1.0.3): Extracting archive
+  - Installing bacon/bacon-qr-code (2.0.7): Extracting archive
+  - Installing jaybizzle/crawler-detect (v1.2.111): Extracting archive
+  - Installing paragonie/constant_time_encoding (v2.6.3): Extracting archive
+  - Installing pragmarx/google2fa (v8.0.1): Extracting archive
+  - Installing laravel/fortify (v1.13.1): Extracting archive
+  - Installing mobiledetect/mobiledetectlib (2.8.39): Extracting archive
+  - Installing jenssegers/agent (v2.6.4): Extracting archive
+  - Installing laravel/jetstream (v2.10.2): Extracting archive
+1 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  jenssegers/agent ............................................................................................................................ DONE
+  laravel/fortify ............................................................................................................................. DONE
+  laravel/jetstream ........................................................................................................................... DONE
+  laravel/sail ................................................................................................................................ DONE
+  laravel/sanctum ............................................................................................................................. DONE
+  laravel/tinker .............................................................................................................................. DONE
+  livewire/livewire ........................................................................................................................... DONE
+  nesbot/carbon ............................................................................................................................... DONE
+  nunomaduro/collision ........................................................................................................................ DONE
+  nunomaduro/termwind ......................................................................................................................... DONE
+  spatie/laravel-ignition ..................................................................................................................... DONE
+
+81 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan jetstream:install livewire
+
+   INFO  Migration created successfully.
+
+./composer.json has been updated
+Running composer update livewire/livewire
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Nothing to modify in lock file
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  jenssegers/agent ............................................................................................................................ DONE
+  laravel/fortify ............................................................................................................................. DONE
+  laravel/jetstream ........................................................................................................................... DONE
+  laravel/sail ................................................................................................................................ DONE
+  laravel/sanctum ............................................................................................................................. DONE
+  laravel/tinker .............................................................................................................................. DONE
+  livewire/livewire ........................................................................................................................... DONE
+  nesbot/carbon ............................................................................................................................... DONE
+  nunomaduro/collision ........................................................................................................................ DONE
+  nunomaduro/termwind ......................................................................................................................... DONE
+  spatie/laravel-ignition ..................................................................................................................... DONE
+
+81 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+
+   INFO  Publishing assets.
+
+  Copying directory [C:\xampp\htdocs\laravel8ecommerce\vendor\laravel\sanctum\database\migrations] to [C:\xampp\htdocs\laravel8ecommerce\database\migrations]  DONE
+  Copying file [C:\xampp\htdocs\laravel8ecommerce\vendor\laravel\sanctum\config\sanctum.php] to [C:\xampp\htdocs\laravel8ecommerce\config\sanctum.php]  DONE
+
+
+   INFO  Livewire scaffolding installed successfully.
+
+   WARN  Please execute the [npm install && npm run dev] commands to build your assets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now install NPM and npm run --dev:-
+
+-Run this URL-https://nodejs.org/en/download/
+
+C:\xampp\htdocs\laravel8ecommerce>npm install
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+added 96 packages, and audited 97 packages in 28s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 8.11.0 -> 8.15.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.15.0
+npm notice Run npm install -g npm@8.15.0 to update!
+npm notice
+
+C:\xampp\htdocs\laravel8ecommerce>npm -v
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+8.11.0
+
+C:\xampp\htdocs\laravel8ecommerce>node -v
+v16.16.0
+
+
+C:\xampp\htdocs\laravel8ecommerce>npm run --dev
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN config dev Please use --include=dev instead.
+Scripts available in undefined via `npm run-script`:
+  dev
+    vite
+  build
+    vite build
+
+C:\xampp\htdocs\laravel8ecommerce>npm run build
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+> build
+> vite build
+
+vite v3.0.3 building for production...
+✓ 59 modules transformed.
+public/build/manifest.json             0.23 KiB
+public/build/assets/app.18493b1c.css   43.62 KiB / gzip: 7.32 KiB
+public/build/assets/app.ab93cf8a.js    129.03 KiB / gzip: 46.77 KiB
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  Press Ctrl+C to stop the server
+
+
+C:\xampp\htdocs\laravel8ecommerce>npm run dev
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+> dev
+> vite
+
+  VITE v3.0.3  ready in 1042 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  Network: use --host to expose
+
+  LARAVEL v9.22.1  plugin v0.5.2
+
+  ➜  APP_URL: http://localhost
+
+
+
+
+
+
+
+
+So Vite gets stuck here so we have to follow other steps:
+
+If you don't want to use vite but mix instead in your new laravel project, you can just get the usual behavior of npm run dev back with the following changes:
+
+1)Install Laravel Mix (because by the new installation it is not there anymore):
+npm install --save-dev laravel-mix
+2)Create a webpack.mix.js file, if it is not there, and make sure it has the following content:
+const mix = require('laravel-mix');
+
+/*
+|--------------------------------------------------------------------------
+| Mix Asset Management
+|--------------------------------------------------------------------------
+|
+| Mix provides a clean, fluent API for defining some Webpack build steps
+| for your Laravel applications. By default, we are compiling the CSS
+| file for the application as well as bundling up all the JS files. 
+|
+*/
+
+mix.js('resources/js/app.js', 'public/js')
+   .postCss('resources/css/app.css', 'public/css', [
+       //
+]);
+3)Update package.json:
+"scripts": {
+-     "dev": "vite",
+-     "build": "vite build"
++     "dev": "npm run development",
++     "development": "mix",
++     "watch": "mix watch",
++     "watch-poll": "mix watch -- --watch-options-poll=1000",
++     "hot": "mix watch --hot",
++     "prod": "npm run production",
++     "production": "mix --production"
+}
+4)Remove vite helper functions (if they are there):
+- import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
+
+  createInertiaApp({
+      title: (title) => `${title} - ${appName}`,
+-     resolve: (name) => resolvePageComponent(`./Pages/${name}.vue`, import.meta.glob('./Pages/**/*.vue')),
++     resolve: (name) => require(`./Pages/${name}.vue`),
+      setup({ el, app, props, plugin }) {
+          return createApp({ render: () => h(app, props) })
+              .use(plugin)
+              .mixin({ methods: { route } })
+              .mount(el);
+      },
+});
+5)Update environment valiables (in .env, VITE_ prefix to MIX_):
+- VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+- VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
++ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
++ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+6)Remove Vite and the laravel Plugin
+npm remove vite laravel-vite-plugin
+7)Remove the Vite config file:
+rm vite.config.js
+8)Remove these paths from .gitignore:
+- /public/build
+- /storage/ssr
+
+
+-We get error at guest.blade.php:
+
+ Remove this line:
+<!-- Scripts -->
+ @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+Add this line:
+<!-- Scripts -->
+        <?php echo ('resources/css/app.css' . ' ' . 'resources/js/app.js'); ?>
+
+And run php artisan serve.
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Now go to:
+ C:\xampp\htdocs\laravel8ecommerce\database\migrations\2014_10_12_000000_create_users_table.php file and add this:
+
+$table->string('utype')->default('USR')->comment('ADM for Admin and USR for user or customer'); //column added for Admin & User Authentication
+
+And check PHP MYADMIN users table utype column additon.
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ............................................................................................................... 44ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table ................................................................................................... 40ms DONE
+  2014_10_12_100000_create_password_resets_table ......................................................................................... 30ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................................................ 12ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................................................. 30ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table .................................................................................. 45ms DONE
+  2022_07_27_103435_create_sessions_table ................................................................................................ 75ms DONE
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  Press Ctrl+C to stop the server
+
+
+
+
+-Now make changes in base.blade.php if user or admin authenticated else will be on login or register page:-
+
+@if(Route::has('login')) <!-- If Route has login route -->
+                                    @auth <!-- If user is authenticated/authorised -->
+                                        @if(Auth::user()->utype === 'ADM')
+                                        <!-- Admin -->
+                                            <li class="menu-item menu-item-has-children parent" >
+                                                <a title="My Account" href="#">My Account ({{ Auth::user()->name }})<i class="fa fa-angle-down" aria-hidden="true"></i></a> Add
+                                                <ul class="submenu curency" >     
+                                                    <li class="menu-item" >
+                                                        <a title="Dashboard" href="#">Dashboard</a>
+                                                    </li>
+                                                
+                                                </ul>
+								            </li>
+                                        <!-- Admin -->
+                                        @else
+                                        <!-- User -->
+                                         
+                                            <li class="menu-item menu-item-has-children parent" >
+                                                <a title="My Account" href="#">My Account ({{ Auth::user()->name }})<i class="fa fa-angle-down" aria-hidden="true"></i></a> Add
+                                                <ul class="submenu curency" >     
+                                                    <li class="menu-item" >
+                                                        <a title="Dashboard" href="#">Dashboard</a>
+                                                    </li>
+                                                </ul>
+								            </li>
+                                        <!-- User -->
+                                        @endif 
+
+                                    @else <!-- If not authenticated it will show login and register page -->
+                                    
+                                        <li class="menu-item" ><a title="Register or Login" href="{{ route('login') }}">Login</a></li> <!-- Remove login.html and add {{ route('login') }}-->
+								        <li class="menu-item" ><a title="Register or Login" href="{{ route('register') }}">Register</a></li> <!--  Remove register.html and add route('register') -->
+                                    
+                                   @endif
+ @endif
+
+
+
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+  
+
+-Register New Admin and user and check data in User table after registration.
+
+Create Routes in Route.php:
+
+//For user
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+
+});
+
+
+// For Admin
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+
+});
+
+
+
+-Create Middleware AuthAdmin and AuthUser
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:middleware AuthAdmin
+
+   INFO  Middleware created successfully.
+
+
+In AuthAdmin, Path:app\Http\Middleware\AuthAdmin.php make changes in this file in class AuthAdmin and function handle add this:
+
+
+  {
+        if(session('utype') === 'ADM')          //If user is ADMIN.
+        {
+          return $next($request);
+        }else{                                  //If user is not ADMIN.
+             session()->flush();                // through flush(); method you can clear all of your session data.
+             return redirect()->route('login'); //redirect to login page.
+        }
+        return $next($request);
+    }
+
+
+
+In AuthAdmin, Path:app\Http\Kernel.php make changes in this file:
+
+   protected $routeMiddleware = [
+        'authAdmin' => \App\Http\Middleware\AuthAdmin::class,
+    ];
+}
+
+
+
+In app\Providers\RouteServiceProvider.php make this changes in file:
+public const HOME = '/';    //Remove '/dashboard' and add '/'.
+
+
+-In vendor\laravel\fortify\src\Actions\AttemptToAuthenticate.php make this changes in file:
+
+:-Check if u have all this if not add it in file:
+
+
+namespace Laravel\Fortify\Actions;
+
+use Illuminate\Auth\Events\Failed;
+use Illuminate\Contracts\Auth\StatefulGuard;
+use Illuminate\Validation\ValidationException;
+use Laravel\Fortify\Fortify;
+use Laravel\Fortify\LoginRateLimiter;
+use Illuminate\Support\Facades\Auth;
+use App\Providers\RouteServiceProvider;
+
+
+
+
+        if ($this->guard->attempt(
+            $request->only(Fortify::username(), 'password'),
+            $request->boolean('remember'))
+        ) {
+            if(Auth::user()-> utype === 'ADM')
+            {  
+               session(['utype'=>'ADM']);
+               return redirect(RouteServiceProvider::HOME);
+            }
+            elseif(Auth::user()-> utype === 'USR')
+            {
+                session(['utype'=>'USR']);
+                return redirect(RouteServiceProvider::HOME);
+            }
+            return $next($request);
+        }
+
+
+-Now create this component and blade file for admin and user:-
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire admin/AdminDashboardComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//Admin/AdminDashboardComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/admin\admin-dashboard-component.blade.php
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:livewire user/UserDashboardComponent
+ COMPONENT CREATED  🤙
+
+CLASS: app/Http/Livewire//User/UserDashboardComponent.php
+VIEW:  C:\xampp\htdocs\laravel8ecommerce\resources\views/livewire/user\user-dashboard-component.blade.php
+
+
+Now component created is :-
+app\Http\Livewire\Admin\AdminDashboardComponent.php so make this changes ->layout('layouts.base');
+
+app\Http\Livewire\User\UserDashboardComponent.php so make this changes ->layout('layouts.base');
+
+
+-Now the blade files for admin and user:-
+resources\views\livewire\admin\admin-dashboard-component.blade.php
+Add this <h1>Admin Dashboard</h1>
+
+resources\views\livewire\user\user-dashboard-component.blade.php
+ Add this <h1>User/Customer Dashboard</h1>
+
+
+-In web.php add this:
+
+//For user
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+    Route::get('/user/dashboard',UserDashboardComponent::class)->name('user.dashboard');
+});
+
+
+// For Admin
+Route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){
+   Route::get('admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
+});
+
+
+
+In base.blade.php:
+For Admin Dashboard make changes like this <a title="Dashboard" href="{{ route('admin.dashboard') }}"> Admin Dashboard</a> <!--Remove # and add {{ route('admin.dashboard') }} -->
+For User Dashboard make changes like this <a title="Dashboard" href="{{ route('user.dashboard') }}">User Dashboard</a> <!--Remove # and add {{ route('user.dashboard') }} -->
+
+
+
+-In base.blade.php we must do Logout for Admin and User:
+
+<!-- Logout for Admin -->
+<li class="menu-item" >
+<a title="Logout" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a> <!--Add logout for admin {{ route('logout') }}  -->
+</li>
+<form id="logout-form" method="POST" action="{{ route('logout') }}"> <!-- We can use for form tag .closest('form').submit(); and form id we use document.getElementById('logout-form').submit(); -->
+@csrf
+														
+</form> 
+
+
+<!-- Logout for User -->
+<li class="menu-item" >
+<a title="Logout" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a> <!--Add logout for user {{ route('logout') }}  -->
+</li>
+<form id="logout-form" method="POST" action="{{ route('logout') }}"> <!-- We can use for form tag .closest('form').submit(); and form id we use document.getElementById('logout-form').submit(); -->
+@csrf
+</form> 
+
+Try login and logout on browser it will redirect to homepage for admin and user.
+
+
+
+
+4)Youtube video 4-Changing the Login and Register Page Layout:
+
+a)Login Page Layout:
+
+First comment in resources\views\layouts\guest.blade.php file entire code and copy all base.blade.php code and paste it in guest.blade.php under comment section.
+
+Second comment in resources\views\auth\login.blade.php file entire code and copy login.html-> main tag code and paste it in login.blade.php between <x-guest-layout></x-guest-layout> tag.
+
+
+-In resources\views\auth\login.blade.php file check commenst and make changes accordingly:-
+
+<x-guest-layout>
+
+
+<!--main area-->
+	<main id="main" class="main-site left-sidebar">
+
+		<div class="container">
+
+			<div class="wrap-breadcrumb">
+				<ul>
+					<li class="item-link"><a href="/" class="link">home</a></li> <!-- Remove # and add / -->
+					<li class="item-link"><span>login</span></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 col-md-offset-3">
+					<div class=" main-content-area">
+						<div class="wrap-login-item ">						
+							<div class="login-form form-item form-stl">
+                                                <x-jet-validation-errors class="mb-4" />  <!-- Add this line here for validation error -->
+								<form name="frm-login" method="POST" action="{{ route('login') }}"> <!-- Add method="POST" action="{{ route('login') }}" here-->
+                                    @csrf   <!-- Add @csrf here-->
+									<fieldset class="wrap-title">
+										<h3 class="form-title">Log in to your account</h3>										
+									</fieldset>
+									<fieldset class="wrap-input">
+										<label for="frm-login-uname">Email Address:</label>
+										<input type="email" id="frm-login-uname" name="email" placeholder="Type your email address" :value="old('email')" required autofocus><!-- change type from "text" to "email" and  :value="old('email')" required autofocus -->
+									</fieldset>
+									<fieldset class="wrap-input">
+										<label for="frm-login-pass">Password:</label>
+										<input type="password" id="frm-login-pass" name="password" placeholder="************" required autocomplete="current-password"><!--Change name="password" and required autocomplete="current-password" -->
+									</fieldset>
+									
+									<fieldset class="wrap-input">
+										<label class="remember-field">
+											<input class="frm-input " name="remember" id="rememberme" value="forever" type="checkbox"><span>Remember me</span><!-- change name="remember"  -->
+										</label>
+										<a class="link-function left-position" href="{{ route('password.request') }}" title="Forgotten password?">Forgotten password?</a><!-- Remove # and add / -->
+									</fieldset>
+									<input type="submit" class="btn btn-submit" value="Login" name="submit">
+								</form>
+							</div>												
+						</div>
+					</div><!--end main products area-->		
+				</div>
+			</div><!--end row-->
+
+		</div><!--end container-->
+
+	</main>
+	<!--main area-->
+
+</x-guest-layout>
+
+
+
+-Now validation of login form for insertion of wrong credentials:
+In public\assets\css\style.css
+
+Here validation is in white color:
+i.e Whoops! Something went wrong.
+These credentials do not match our records.
+
+So we add in style.css:
+
+.text-red-600{  /*Add validation css to login.blade.php it will show color red*/
+    color:red; /*Whoops! Something went wrong.These credentials do not match our records.*/
+}
+
+
+
+b) Register Page Layout:
+
+Second comment in resources\views\auth\register.blade.php file entire code and copy register.html-> main tag code and paste it in register.blade.php between <x-guest-layout></x-guest-layout> tag.
+
+
+<!-- Second comment login.blade.php entire code and copy register.html-> main tag code and paste it in register.blade.php between  x-guest-layout tag and /x-guest-layout tag. -->
+
+<x-guest-layout>
+
+	<!--main area-->
+	<main id="main" class="main-site left-sidebar">
+
+		<div class="container">
+
+			<div class="wrap-breadcrumb">
+				<ul>
+					<li class="item-link"><a href="/" class="link">home</a></li> <!-- Remove # and add / -->
+					<li class="item-link"><span>Register</span></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 col-md-offset-3">							
+					<div class=" main-content-area">
+						<div class="wrap-login-item ">
+							<div class="register-form form-item ">
+                                <x-jet-validation-errors class="mb-4" />
+								<form class="form-stl" action="{{ route('register') }}" name="frm-login" method="POST" > <!-- Add method="POST" action="{{ route('register') }}" here-->
+									@csrf   <!-- Add @csrf here-->
+                                    <fieldset class="wrap-title">
+										<h3 class="form-title">Create an account</h3>
+										<h4 class="form-subtitle">Personal infomation</h4>
+									</fieldset>									
+									<fieldset class="wrap-input">
+										<label for="frm-reg-lname">Name*</label>
+										<input type="text" id="frm-reg-lname" name="name" placeholder="Your name*" :value="name" required autofocus autocomplete="name"><!-- change name,Your name* and also add :value="name" required autofocus autocomplete="name"> -->
+									</fieldset>
+									<fieldset class="wrap-input">
+										<label for="frm-reg-email">Email Address*</label>
+										<input type="email" id="frm-reg-email" name=" email" placeholder="Email address" :value="email"><!-- change type from "text" to "email" and  :value="old('email')" required autofocus -->
+									</fieldset>
+									<!-- <fieldset class="wrap-functions ">  //We dont need this
+										<label class="remember-field">
+											<input name="newletter" id="new-letter" value="forever" type="checkbox"><span>Sign Up for Newsletter</span>
+										</label>
+									</fieldset> -->
+									<fieldset class="wrap-title">
+										<h3 class="form-title">Login Information</h3>
+									</fieldset>
+									<fieldset class="wrap-input item-width-in-half left-item ">
+										<label for="frm-reg-pass">Password *</label>
+										<input type="password" id="frm-reg-pass" name="password" placeholder="Password" require autocomplete="new-password"><!-- change type to "password" name is password and add here require autocomplete="new-password" -->
+									</fieldset>
+									<fieldset class="wrap-input item-width-in-half ">
+										<label for="frm-reg-cfpass">Confirm Password *</label>
+										<input type="password" id="frm-reg-cfpass" name="password_confirmation" placeholder="Confirm Password" require autocomplete="new-password"><!-- change name="password_confirmation" and add here require autocomplete="new-password" -->
+									</fieldset>
+									<input type="submit" class="btn btn-sign" value="Register" name="register">
+								</form>
+							</div>											
+						</div>
+					</div><!--end main products area-->		
+				</div>
+			</div><!--end row-->
+
+		</div><!--end container-->
+
+	</main>
+	<!--main area-->
+
+</x-guest-layout>
+
+
+
+
+5)Youtube video 5: Making Shop Page Products Dynamic:-
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:model Category -m
+
+   INFO  Model created successfully.
+
+   INFO  Created migration [2022_08_01_111759_create_categories_table].
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:model Product -m
+
+   INFO  Model created successfully.
+
+   INFO  Created migration [2022_08_01_111630_create_products_table].
+
+
+
+-Also add eloquent relation in category and products:
+
+a) In app\Models\Category.php:
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    use HasFactory;
+    protected $table = "categories"; //Add table name here
+
+    public function Product()  //create function
+    {
+        $this->belongsTo(Category::class); //eloquent relation
+    }
+}
+
+
+b)In app\Models\Product.php:
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Product extends Model
+{
+    use HasFactory;
+    protected $table="products"; //Add table name here
+
+    public function Category() //create function Category
+    {
+        $this->hasMany(Category::class); //eloquent relation
+    }
+}
+
+
+
+
+
+-In database\migrations\2022_08_01_111759_create_categories_table.php:
+
+
+so add this it will be:
+    public function up()
+    {
+        Schema::create('categories', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->unique();
+            $table->string('slug')->unique();
+            $table->timestamps();
+        });
+    }
+
+
+
+In app\Models\Category.php:-
+
+ protected $table = "categories"; //Add table name here
+
+
+In database\migrations\2022_08_01_111630_create_products_table.php:
+
+         public function up()
+    {
+        Schema::create('products', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('slug')->unique();
+            $table->string('short_description')->nullable();
+            $table->text('description');
+            $table->decimal('regular_price');
+            $table->decimal('sale_price')->nullable();
+            $table->string('SKU');
+            $table->enum('stock_status',['instock','outofstock']);
+            $table->boolean('featured')->default(false);
+            $table->unsignedInteger('quantity')->default(10);
+            $table->string('image')->nullable();
+            $table->text('images')->nullable(); //product gallery
+            // $table->bigInteger('category_id')->unsigned()->nullable();
+            // $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade'); 
+            $table->foreignId('category_id')->constrained(); //type-bigint(20) and attribute is UNSIGNED is same for categories table id and foreignId category_id.
+            $table->timestamps();
+        });
+    }
+
+
+In app\Models\Product.php:-
+protected $table="products"; //Add table name here
+
+
+Now check migration files dates it should be in this order i.e product comes after category:
+2014_10_12_000000_create_users_table.php
+2014_10_12_100000_create_password_resets_table.php
+2014_10_12_200000_add_two_factor_columns_to_users_table.php
+2019_08_19_000000_create_failed_jobs_table.php
+2019_12_14_000001_create_personal_access_tokens_table.php
+2022_06_03_051040_create_sessions_table.php
+2022_07_01_111759_create_categories_table.php
+2022_08_01_111630_create_products_table.php
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan migrate:fresh
+
+  Dropping all tables ................................................................................................................... 108ms DONE
+
+   INFO  Preparing database.
+
+  Creating migration table ............................................................................................................... 21ms DONE
+
+   INFO  Running migrations.
+
+  2014_10_12_000000_create_users_table ................................................................................................... 47ms DONE
+  2014_10_12_100000_create_password_resets_table ......................................................................................... 30ms DONE
+  2014_10_12_200000_add_two_factor_columns_to_users_table ................................................................................ 15ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................................................. 39ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table .................................................................................. 47ms DONE
+  2022_06_03_051040_create_sessions_table ................................................................................................ 79ms DONE
+  2022_07_01_111759_create_categories_table .............................................................................................. 42ms DONE
+  2022_08_01_111630_create_products_table ................................................................................................ 87ms DONE
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+
+-Now insert dummy records in category and product table so create factory for both:
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:factory CategoryFactory --model=Category
+
+   INFO  Factory created successfully.
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan make:factory ProductFactory --model=Product
+
+   INFO  Factory created successfully.
+
+a)In database\factories\CategoryFactory.php:
+
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str; //Add this
+
+
+class CategoryFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition()
+    {
+        //For dummy records for category
+        $category_name = $this->faker->unique()->words($nb=2,$asText=true); //number of words 2.
+        $slug = Str::slug($category_name);
+        return [
+            
+            'name' =>  $category_name,
+            'slug' =>  $slug
+            
+        ];
+    }
+}
+
+
+b)In database\factories\ProductFactory.php:
+
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str; //Add this
+
+
+class ProductFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition()
+    {
+        //For dummy records for product
+        $product_name = $this->faker->unique()->words($nb=4,$asText=true); //number of words 4.
+        $slug = Str::slug($product_name);
+        return [
+            'name' =>  $product_name,
+            'slug' =>  $slug,
+            'short_description' => $this->faker->text(200),
+            'description' => $this->faker->text(500),
+            'regular_price' => $this->faker->numberBetween(10,500),
+            // 'sale_price' => $this->faker->numberBetween(10,500),
+            'SKU' => 'DIGI'.$this->faker->unique()->numberBetween(100,500),
+            'stock_status' => 'instock',
+            // 'featured' => $this->faker->text(500),
+            'quantity' => $this->faker->numberBetween(10,200),
+            'image' => 'digital_' . $this->faker->unique()->numberBetween(1,22).'.jpg', // In public\assets\images\products\ we have 22 digital_ images and its extension i.e .jpg
+            'category_id' =>$this->faker->numberBetween(1,5)
+        ];
+    }
+}
+
+
+
+-Also rename digital_01.jpg to digital_1.jpg and so on till digital_09 to digital_9.your database table products column-image values is digital_1.jpg,and so on till digital_g.jpg.
+
+
+
+
+
+In database\seeders\DatabaseSeeder.php:
+
+
+<?php
+
+namespace Database\Seeders;
+
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        // \App\Models\User::factory(10)->create();
+
+        // \App\Models\User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
+
+        \App\Models\Category::factory(6)->create(); // For Category-6
+        \App\Models\Product::factory(22)->create(); //For Product-22
+    }
+}
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan db:seed
+
+   INFO  Seeding database.
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+
+
+-In app\Http\Livewire\ShopComponent.php add this new commented lines.
+
+<?php
+
+namespace App\Http\Livewire;
+
+use Livewire\Component;
+use Livewire\WithPagination; // add this line
+
+class ShopComponent extends Component
+{
+    use WithPagination; //add this
+    public function render()
+    {
+        $products = Product::paginate(12); // add this
+        return view('livewire.shop-component',['products'=> $products])->layout("layouts.base"); //add ->layout("layouts.base") //add this now ,['products'=> $products]
+    }
+}
+
+
+
+In resources\views\livewire\shop-component.blade.php:
+
+Here Add for each loop for 1st <li> and comment or delete remaining <li> for Radiant-360 R6 Wireless Omnidirectional Speaker.
+
+@foreach($products as $product) <!-- Dynamically products all data fetched with image from database -->
+   <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 ">
+	<div class="product product-style-3 equal-elem ">
+	   <div class="product-thumnail">
+		<!-- <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim"> -->
+		<a href="detail.html" title="{{$product->name}}"> <!--add here {{$product->name}} -->
+		<!-- <figure><img src="{{ asset('assets/images/products/digital_20.jpg') }}" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure> -->
+		<figure><img src="{{ asset('assets/images/products') }}/{{$product->image}}" alt="{{$product->name}}"></figure> <!--add here /{{$product->image}} and {{$product->name}} -->
+	      </a>
+	    </div>
+	    <div class="product-info">
+		 <!-- <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a> -->
+		 <!-- <div class="wrap-price"><span class="product-price">$250.00</span></div> -->
+		 <a href="#" class="product-name"><span>{{$product->name}}</span></a> <!--add here {{$product->name}} -->
+		 <div class="wrap-price"><span class="product-price">${{$product->regular_price}}</span></div> <!--add here {{$product->regular_price}} -->
+		        <a href="#" class="btn add-to-cart">Add To Cart</a>
+	    </div>
+	 </div>
+   </li>
+@endforeach
+
+
+Now the dynamic pagination just below it:-
+
+<div class="wrap-pagination-info">
+	{{ $products -> links() }} <!-- Dynamic shop page pagination from database -->
+
+	     <!-- <ul class="page-numbers">
+			<li><span class="page-number-item current" >1</span></li>
+			<li><a class="page-number-item" href="#" >2</a></li>
+			<li><a class="page-number-item" href="#" >3</a></li>
+			<li><a class="page-number-item next-link" href="#" >Next</a></li>
+		</ul>
+		   <p class="result-count">Showing 1-8 of 12 result</p> -->
+
+</div>
+
+
+-Now if you will face error in pagination on click of 1,2,previous and next so do this:
+
+In app\Http\Livewire\ShopComponent.php:-
+
+Remove this line: use WithPagination; and save file.
+
+
+
+In public\assets\css\style.css add this css:-
+
+/* shop-component.blade.php file  Making Shop Page Products Dynamic with pagination css */
+
+/* We have 2 css use anyone u like */
+
+/* First css */
+.pl-4,
+.px-4 {
+    padding: 1rem !important;
+}
+
+.pb-2,
+.py-2 {
+    padding: 1rem !important;
+}
+
+.pt-2,
+.py-2 {
+    padding: 1rem !important;
+}
+
+.bg-white {
+    color: white;
+    margin: 2px;
+    background-color: #ff2832 !important;
+    font: 14px bold, "ARIAL";
+}
+
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+
+nav svg {
+    height: 20px;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.wrap-pagination-info {
+    margin-top: 46px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 10px;
+}
+
+.wrap-pagination-info .hidden {
+    display: block !important;
+    margin-top: 30px;
+    margin-left: -3px;
+}
+
+.wrap-pagination-info .rounded-l-md {
+    margin-left: 5px;
+}
+.wrap-pagination-info .rounded-r-md {
+    margin-left: 5px;
+}
+p.text-sm.text-gray-700.leading-5 {
+    float: right;
+    margin-top: -50px;
+}
+
+.items-center a:focus {
+    color: black;
+}
+.items-center a:hover {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* First css */
+
+/* Second css */
+
+/* .text-red-600 {
+    color: red;
+}
+
+.pl-4, .px-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: .5rem !important;
+}
+
+.pt-2, .py-4 {
+    padding-top: .5rem !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.border {
+    border: 1px solid #dee2e6;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+nav svg {
+    height: 20px;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.wrap-pagination-info {
+    margin-top: 46px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 10px;
+}
+
+.wrap-pagination-info .hidden {
+    display: block !important;
+}
+
+.wrap-pagination-info .rounded-1-md {
+    margin-right: 5px;
+}
+
+.wrap-pagination-info .rounded-r-md {
+    margin-left: 5px;
+} */
+
+/* Second css */
+
+/* Close of New css added */
+
+
+
+C:\xampp\htdocs\laravel8ecommerce>php artisan serve
+
+   INFO  Server running on [http://127.0.0.1:8000].
+
+
+
+
+
+6) Laravel Video 6: Create Product Details Page:-
+
+
+
+
+

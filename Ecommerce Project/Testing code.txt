@@ -1,0 +1,24 @@
+
+Links it can be has:
+<?php echo app('Illuminate\Foundation\Vite') && ('resources/css/app.css' && 'resources/js/app.js'); ?>
+               
+                @livewireScripts
+       
+        <!-- Styles -->
+        @livewireStyles    
+
+
+<?php echo app('Illuminate\Foundation\Vite') && ('resources/css/app.css' && 'resources/js/app.js'); ?>
+        @livewireScripts
+        <!-- Styles -->
+        @livewireStyles
+
+
+
+
+Links it can be changed:
+         <!-- Styles -->
+         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>

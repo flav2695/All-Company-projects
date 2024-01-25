@@ -1,0 +1,18 @@
+1:34 Introduction
+4:11 node js installation
+8:40 VS code installation
+10:16 start writing code
+14:20 Package.json
+24:25 Module import/Export
+26:50 Module wrapper function
+29:15 node packages
+30:21 OS Module
+33:52 Path Module
+38:48 File System Module
+44:10 Non-blocking io Module example
+49:45 CommonJS module VS ECMAScript Module
+59:38 URL Module
+1:01:34 Events
+1:09:36 HTTP Module
+1:31:31 Express js
+1:38:40 Digitalocean
