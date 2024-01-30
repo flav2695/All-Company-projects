@@ -1,0 +1,38 @@
+Power Bi tutorial for Beginners | Power BI Dashboard Project in Hindi | Power Bi Course 2023
+
+Download Power BI Desktop: https://www.microsoft.com/en-us/downl... 
+⭐Download data csv files: https://bit.ly/3ZiHghb 
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+👍 Subscribe Now: https://bit.ly/3Fc7Gc6
+Do you want to become a Data Analyst or learn data analytics ? This channel is all about learning data science skills, tips and projects. My goal is to help you learn everything you need to start or switch your career into data science  :)
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+⭐Content⭐
+00:00   Intro
+00:32   Power BI intro
+01:04   Power BI Installation
+02:02   Explore Power BI
+03:33   Power BI Project
+04:51   Import Data
+06:06   Power Query-Transform Data
+12:50   DAX - Data View
+14:46   Data Modelling in Power BI
+16:50   Power BI Dashboard
+44:24   Outro
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+Learn Power BI in just one video. Topics covered in this Power BI Tutorial + Project video: 
+- What is Power BI
+- How to install Power BI Desktop
+- How to use Power BI
+- Import data in Power BI
+- Power Query in Power BI
+- DAX in Power BI
+- Measures and Calculations in Power BI
+- Charts in Power BI
+- Filters and Slicers in Power BI
+- Dashboard in Power BI 
+- Insights from Dashboard 
